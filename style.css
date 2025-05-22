@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif; /* 简洁、易读的字体 */
+    margin: 0; /* 移除默认的 body 外边距 */
+    padding: 20px; /* 添加一些整体内边距 */
+    background-color: #f4f4f4; /* 浅灰色背景 */
+    color: #333; /* 深灰色文本颜色 */
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 30px;
+}
+
+h1, h2 {
+    color: #0056b3; /* 标题使用漂亮的蓝色 */
+}
+
+nav ul {
+    list-style: none; /* 移除导航列表的项目符号 */
+    padding: 0;
+}
+
+nav li {
+    display: inline; /* 使导航项水平排列 */
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none; /* 移除链接下划线 */
+    color: #0056b3;
+    font-weight: bold;
+}
+
+section {
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px; /* 略微圆角 */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* 微妙的阴影效果 */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; /* 移除双重边框 */
+    margin-top: 15px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #e2e6ea; /* 表格标题浅色背景 */
+    color: #333;
+}
+
+a {
+    color: #007bff; /* 标准链接颜色 */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; /* 鼠标悬停时显示下划线 */
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    color: #666;
+    font-size: 0.9em;
+}
